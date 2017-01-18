@@ -33,7 +33,7 @@ android {
         fatmi {
             java.srcDirs = ['src/main/java']
 
-            res.srcDirs = ['src/fatmi/res']
+            res.srcDirs = ['src/fatmi']
             manifest.srcFile 'src/main/AndroidManifest.xml'
         }
     }
